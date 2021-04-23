@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lato', sans-serif;
+}
+
+body{
+    height: 100vh;
+
+    background-image: linear-gradient( 
+        to bottom,
+     #009688 0%, 
+     #009688 15%, 
+     #DDDBD1 15%, 
+     #DDDBD1 100%
+    );
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container{
+    min-width: 80%;
+    width: 900px;
+    background: black;
+    min-height: 80%;
+    height: 95%;
+    display: flex;
+}
+
+/* PARTE SINISTRA */
+.aside-left{
+    flex-basis: 35%;
+    height: 100%;
+    background-color: #fff;
+}
+
+/* PARTE DESTRA */
+.aside-right{
+    flex-basis: 65%;
+    height: 100%;
+    background-color: blue;
+}
+
