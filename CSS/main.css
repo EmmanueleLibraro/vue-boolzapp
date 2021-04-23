@@ -86,3 +86,45 @@ body{
     font-size: 20px;
     color: #B1B1B1;
 }
+
+/* ATTIVA/DISATTIVA NOTIFICA */
+.container-notifica{
+    width: 100%;
+    height: 80px;
+    background: #8EDAFC;
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.campana-notifica{
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: #fff;
+    border-radius: 50%;
+}
+
+.campana-notifica i{
+    color: #8EDAFC;
+    font-size: 22px;
+}
+
+/*  INFO TESTO NOTIFICA */
+.info-notifica p{
+    margin-left: 15px;
+    margin-bottom: 4px;
+}
+
+.info-notifica .first-p{
+    font-weight: bold;
+}
+
+.info-notifica .first-span{
+    margin-bottom: 0;
+    margin-left: 15px;
+    color: #517789;
+    border-bottom: 1px solid #517789;
+}
