@@ -82,8 +82,8 @@ body{
 
 .lista-emote li{
     cursor: pointer;
-    margin-left: 15px;
-    font-size: 20px;
+    margin-left: 20px;
+    font-size: 21px;
     color: #B1B1B1;
 }
 
@@ -98,14 +98,21 @@ body{
 }
 
 .campana-notifica{
-    width: 60px;
-    height: 60px;
+    width: 50px;
+    height: 50px;
     display: flex;
     align-items: center;
     justify-content: center;
     background: #fff;
     border-radius: 50%;
+    transition: background .3s;
+    cursor: pointer;
 }
+
+.campana-notifica:hover{
+    background: rgba(238, 238, 238, 1);
+}
+
 
 .campana-notifica i{
     color: #8EDAFC;
@@ -123,8 +130,49 @@ body{
 }
 
 .info-notifica .first-span{
-    margin-bottom: 0;
     margin-left: 15px;
     color: #517789;
     border-bottom: 1px solid #517789;
+}
+
+/* SEARCH BAR/EMOTE SEARCH */
+.container-search{
+    width: 100%;
+    height: 60px;
+    background: #f1f0ef;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+}
+
+.container-search .search-emote{
+    flex-basis: 20%;
+    background: #fff;
+    height: 45px;
+}
+
+.search-emote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.search-emote i{
+    color: #B6B9BB;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.container-search .input-bar{
+    flex-basis: 80%;
+    background: #fff;
+    border-left: 1px solid #f1f0ef;
+    height: 45px;
+}
+
+.input-bar input{
+    width: 100%;
+    height: 100%;
+    border: none;
+    padding-left: 10px;
 }
