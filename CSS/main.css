@@ -40,7 +40,7 @@ body{
 .container-avatar-top{
     width: 100%;
     height: 80px;
-    background: #DDDBD1;
+    background: #f1f0ef;
     display: flex;
 }
 
@@ -208,5 +208,65 @@ body{
 .aside-right{
     flex-basis: 65%;
     height: 100%;
-    background-color: blue;
+    display: flex;
+    flex-direction: column;
+}
+
+/* TOP */
+.top-right,
+.bottom-right{
+    width: 100%;
+    height: 80px;
+    background: #f1f0ef;
+    border-left: 1px solid #B1B1B1;
+}
+
+.middle{
+    flex-grow: 1;
+    background-image: url(../img/mine.jpg);
+}
+
+.top-right{
+    display: flex;
+    align-items: center;
+}
+
+.container-info-mid{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    padding: 0 20px;
+}
+/* INFO IMG E TESTO */
+.info-img-text{
+    display: flex;
+    align-items: center;
+}
+
+.info-img-text p{
+    font-weight: bold;
+    margin-left: 12px;
+}
+
+.info-img-text span{
+    color: #B1B1B1;
+}
+
+.container-info-mid img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+/* LISTA TOP RIGHT */
+.container-emote-right ul{
+    list-style: none;
+    display: flex;
+}
+
+.container-emote-right li{
+    font-size: 21px;
+    color: #B1B1B1;
+    margin-left: 20px;
+    cursor: pointer;
 }
