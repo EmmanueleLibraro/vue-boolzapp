@@ -247,10 +247,12 @@ body{
 .info-img-text p{
     font-weight: bold;
     margin-left: 12px;
+    margin-bottom: 5px;
 }
 
 .info-img-text span{
     color: #B1B1B1;
+    margin-left: 12px;
 }
 
 .container-info-mid img{
