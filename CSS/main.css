@@ -67,7 +67,6 @@ body{
     margin-left: 12px;
 }
 
-
 .lista-emote{
     display: flex;
     list-style: none;
@@ -105,7 +104,6 @@ body{
 .campana-notifica:hover{
     background: rgba(238, 238, 238, 1);
 }
-
 
 .campana-notifica i{
     color: #8EDAFC;
@@ -238,6 +236,7 @@ body{
     width: 100%;
     padding: 0 20px;
 }
+
 /* INFO IMG E TESTO */
 .info-img-text{
     display: flex;
@@ -271,4 +270,28 @@ body{
     color: #B1B1B1;
     margin-left: 20px;
     cursor: pointer;
+}
+
+/* LISTA BOTTOM RIGHT */
+.bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.emote-bottom{
+    padding: 0 20px;
+    color: #B1B1B1;
+    font-size: 21px;
+    cursor: pointer;
+}
+
+.input-bottom input{
+    width: 900px;
+    height: 60px;
+    border: none;
+    flex-grow: 1;
+    padding-left: 10px;
+    border-radius: 5px;
+    background: #fff;
 }
