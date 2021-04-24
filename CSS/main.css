@@ -36,13 +36,6 @@ body{
     background-color: #fff;
 }
 
-/* PARTE DESTRA */
-.aside-right{
-    flex-basis: 65%;
-    height: 100%;
-    background-color: blue;
-}
-
 /* AVATAR TOP E MIDDLE */
 .container-avatar-top{
     width: 100%;
@@ -175,4 +168,45 @@ body{
     height: 100%;
     border: none;
     padding-left: 10px;
+}
+
+/* LISTA AVATAR */
+.lista-avatar{
+    width: 100%;
+    height: 80px;
+    background: #fff;
+}
+
+.container-avatar ul{
+    list-style: none;
+}
+
+.container-avatar li{
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #f1f0ef;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+.container-avatar li:hover{
+    background: #f1f0ef;
+}
+
+.lista-avatar img{
+    width: 60px;
+    border-radius: 50%;
+}
+
+.lista-avatar p{
+    font-weight: bold;
+    margin-left: 17px;
+    font-size: 18px;
+}
+
+/* PARTE DESTRA */
+.aside-right{
+    flex-basis: 65%;
+    height: 100%;
+    background-color: blue;
 }
