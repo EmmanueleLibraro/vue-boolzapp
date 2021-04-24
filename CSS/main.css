@@ -309,6 +309,21 @@ body{
     color: #B1B1B1;
 }
 
+/* MESSAGGIO RICEVUTO */
+.testo-ricevuto{
+    display: flex;
+    justify-content: left;
+}
+
+.fumetto-chat-ricevuto{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background: #fff;  
+}
+
 /* LISTA BOTTOM RIGHT */
 .bottom-right{
     display: flex;
