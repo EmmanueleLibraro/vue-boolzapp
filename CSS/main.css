@@ -272,6 +272,43 @@ body{
     cursor: pointer;
 }
 
+/* LISTA MIDDLE */
+.middle{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.fumetto-chat-utente{
+    width: 300px;
+    height: 50px;
+    margin-top: 50px;
+    margin-right: 50px;
+    border-radius: 5px;
+    background: #D5F9BA;
+}
+
+.testo-utente{
+    display: flex;
+    align-items: center;
+    margin-top: 12px;
+}
+
+.testo-utente p{
+    font-weight: bold;
+    padding-left: 15px;
+}
+
+.ultimo-invio{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.ultimo-invio p{
+    font-size: 10px;
+    padding-right: 10px;
+    color: #B1B1B1;
+}
+
 /* LISTA BOTTOM RIGHT */
 .bottom-right{
     display: flex;
@@ -287,7 +324,7 @@ body{
 }
 
 .input-bottom input{
-    width: 900px;
+    width: 850px;
     height: 60px;
     border: none;
     flex-grow: 1;
