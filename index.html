@@ -79,10 +79,10 @@
             <!-- LISTA AVATAR CONTATTI-->
             <div class="lista-avatar">
                <div class="container-avatar">
-                    <ul >
+                    <ul>
                         <li v-for="contact in contacts" class="active">
-                            <img :src="'./img/avatar' + contacts.avatar + '.jpg'" :alt="contacts.name">
-                            <p>{{ contacts.name }}</p>
+                            <img :src="'./img/avatar' + contact.avatar + '.jpg'" :alt="contact.name">
+                            <p>{{ contact.name }}</p>
                         </li>
 
                         <!-- <li>
@@ -141,7 +141,6 @@
             <!-- MIDDLE -->
             <div class="middle">
                 <!-- FUMETTO MESS INVIATO -->
-
                 <div class="fumetto-destra">
                     <div class="fumetto-chat-utente">
                         <div class="testo-utente">
@@ -186,16 +185,7 @@
                 </div>
             </div>
         </div>
-
-
-
-
-
-
     </div>
-
-
-
 
 <!-- JS -->
     <script src="./JS/contatti.js"></script>
