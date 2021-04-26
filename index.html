@@ -15,6 +15,9 @@
 
     <!-- FONT-AWESOME -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
+    <!-- VUE JS -->
+<script src="https://cdn.jsdelivr.net/npm/vue@2.6.12/dist/vue.js"></script>
 </head>
 <body>
     
@@ -73,16 +76,16 @@
                 </div>
             </div>
 
-            <!-- LISTA AVATAR -->
+            <!-- LISTA AVATAR CONTATTI-->
             <div class="lista-avatar">
                <div class="container-avatar">
-                    <ul>
-                        <li>
-                            <img src="./img/avatar_1.jpg" alt="">
-                            <p>Michele</p>
+                    <ul >
+                        <li v-for="contact in contacts" class="active">
+                            <img :src="'./img/avatar' + contacts.avatar + '.jpg'" :alt="contacts.name">
+                            <p>{{ contacts.name }}</p>
                         </li>
 
-                        <li>
+                        <!-- <li>
                             <img src="./img/avatar_2.jpg" alt="">
                             <p>Fabio</p>
                         </li>
@@ -95,7 +98,7 @@
                         <li>
                             <img src="./img/avatar_4.jpg" alt="">
                             <p>Luisa</p>
-                        </li>
+                        </li> -->
                     </ul>
                </div>  
             </div>
@@ -186,7 +189,8 @@
 
 
 
-
+<!-- JS -->
+    <script src="./JS/contatti.js"></script>
 
 </body>
 </html>

@@ -187,6 +187,10 @@ body{
     cursor: pointer;
 }
 
+.container-avatar li.active{
+    background: #f1f0ef;
+}
+
 .container-avatar li:hover{
     background: #f1f0ef;
 }
