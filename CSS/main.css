@@ -277,7 +277,7 @@ body{
 }
 
 /* LISTA MIDDLE */
-.middle{
+.fumetto-destra{
     display: flex;
     justify-content: flex-end;
 }
@@ -291,13 +291,15 @@ body{
     background: #D5F9BA;
 }
 
-.testo-utente{
+.testo-utente,
+.testo-bot{
     display: flex;
     align-items: center;
     margin-top: 12px;
 }
 
-.testo-utente p{
+.testo-utente p,
+.testo-bot p{
     font-weight: bold;
     padding-left: 15px;
 }
@@ -325,7 +327,8 @@ body{
     margin-top: 50px;
     margin-right: 50px;
     border-radius: 5px;
-    background: #fff;  
+    background: #fff;
+    margin-left: 50px;  
 }
 
 /* LISTA BOTTOM RIGHT */
